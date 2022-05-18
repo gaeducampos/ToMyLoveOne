@@ -1,0 +1,44 @@
+body{
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.text{
+  text-align: center;
+  font-family: Sans-serif;
+}
+
+.btns{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+button{
+  text-decoration: none;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  font-weight: 600;
+
+
+}
+
+.btn-first{
+  background: red;
+  margin-right: 10rem;
+}
+
+.btn-second{
+  background: blue;
+  position: absolute;
+  margin-left: 10rem;
+}
+
+.a-tag {
+  margin-top: 20px;
+}
