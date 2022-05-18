@@ -1,3 +1,7 @@
+
+
+
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -11,12 +15,7 @@ const buttonWidth = 1;
 
 
 
-const btnFirst = document.querySelector(".btn-first");
-const text = document.querySelector(".text");
-btnFirst.addEventListener("click", function () {
-  alert("Yaa, Baper :)");
-  // text.style.display = "none";
-})
+
 
 
 window.addEventListener('DOMContentLoaded', () => {

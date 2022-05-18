@@ -25,6 +25,20 @@
   </div>
 
   <script src="button.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    const btnFirst = document.querySelector(".btn-first");
+    btnFirst.addEventListener("click", () => {
+      Swal.fire({
+        title: 'Sabia que aceptarias mi amor 😍 ahora besame jsjsjsj',
+        text: 'MUUUUAK',
+        imageUrl: 'https://i.pinimg.com/236x/10/8e/3b/108e3b9ba2d1cd30b08c6279da3ad674.jpg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+      })
+    })
+  </script>
 </body>
 
 </html>
